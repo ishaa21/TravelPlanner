@@ -1,10 +1,10 @@
-# 🌍 Voyage - AI Travel Planner
+# 🌍 SafarAI - AI Travel Planner
 
-Welcome to **Voyage - AI Travel Planner**, an intelligent multi-agent travel planning assistant powered by Google ADK, Google GenAI (Gemini), and the Model Context Protocol (MCP) server for Google Maps.
+Welcome to **SafarAI - AI Travel Planner**, an intelligent multi-agent travel planning assistant powered by Google ADK, Google GenAI (Gemini), and the Model Context Protocol (MCP) server for Google Maps.
 
 ## 🚀 Live Demo
 Experience the live application here:
-**[Voyage AI Travel Planner](https://travel-planner-648281661119.us-central1.run.app/)**
+**[SafarAI Travel Planner](https://travel-planner-648281661119.us-central1.run.app/)**
 
 ## 📖 Overview
 

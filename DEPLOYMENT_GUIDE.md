@@ -1,4 +1,4 @@
-# 🌍 Voyage — AI Travel Planner
+# 🌍 SafarAI — AI Travel Planner
 ## Complete Deployment Guide (Beginner-Friendly)
 ### Track 2: Connect AI Agents to Real-World Data using MCP
 
@@ -37,9 +37,9 @@ and `static/index.html` into `~/travel_planner_agent/static/`.
 ```bash
 cat << 'EOF' > ~/travel_planner_agent/.env
 GOOGLE_GENAI_USE_VERTEXAI=TRUE
-GOOGLE_CLOUD_PROJECT=your-project-id-here
+GOOGLE_CLOUD_PROJECT=qwiklabs-gcp-00-c06207955c1b
 GOOGLE_CLOUD_LOCATION=global
-GOOGLE_MAPS_API_KEY=your-google-maps-api-key-here
+GOOGLE_MAPS_API_KEY=PASTE_YOUR_MAPS_API_KEY_HERE
 MODEL=gemini-2.5-flash
 EOF
 ```
@@ -133,7 +133,3 @@ gcloud run logs read --service travel-planner-agent --region us-central1
 
 ---
 
-## What to Submit
-
-1. **Cloud Run URL** — the `Service URL` from Step 6
-2. **PPT** — 2–3 slide presentation (provided separately)
