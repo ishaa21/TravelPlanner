@@ -37,9 +37,9 @@ and `static/index.html` into `~/travel_planner_agent/static/`.
 ```bash
 cat << 'EOF' > ~/travel_planner_agent/.env
 GOOGLE_GENAI_USE_VERTEXAI=TRUE
-GOOGLE_CLOUD_PROJECT=qwiklabs-gcp-00-c06207955c1b
+GOOGLE_CLOUD_PROJECT=your-project-id-here
 GOOGLE_CLOUD_LOCATION=global
-GOOGLE_MAPS_API_KEY=AIzaSyCQu688C2JzUumUMtqbcsn7beL7zA_Qyyc
+GOOGLE_MAPS_API_KEY=your-google-maps-api-key-here
 MODEL=gemini-2.5-flash
 EOF
 ```
